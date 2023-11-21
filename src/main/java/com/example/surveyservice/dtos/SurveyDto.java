@@ -22,9 +22,9 @@ import java.util.Date;
 public class SurveyDto implements Serializable {
     private Long id;
     private Long version;
-    private Date createdDate;
-
-    private Date lastModifiedDate;
+//    private Date createdDate;
+//
+//    private Date lastModifiedDate;
     @NotNull
     @NotEmpty
     @NotBlank
